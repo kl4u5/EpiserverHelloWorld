@@ -6,7 +6,8 @@ using EPiServer.DataAnnotations;
 using EPiServer.SpecializedProperties;
 
 namespace EpiserverSite2Empty.Models.Pages
-{
+{   
+    //A small comment adde in develop branch
     [ContentType(DisplayName = "StartPage", GUID = "fdf88539-ec3f-4896-a4af-d28ef66b45d0", Description = "")]
     public class StartPage : PageData
     {
