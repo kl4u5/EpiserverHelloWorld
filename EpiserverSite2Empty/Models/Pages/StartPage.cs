@@ -15,7 +15,7 @@ namespace EpiserverSite2Empty.Models.Pages
                 [CultureSpecific]
                 [Display(
                     Name = "Main body",
-                    Description = "The RR2  release1 main body will be shown in the main content area of the page, using the XHTML-editor you can insert for example text, images and tables.",
+                    Description = "The release1 feature2 main body will be shown in the main content area of the page, using the XHTML-editor you can insert for example text, images and tables.",
                     GroupName = SystemTabNames.Content,
                     Order = 1)]
                 public virtual XhtmlString MainBody { get; set; }
